@@ -30,8 +30,7 @@
 		"watch-test": "yarn copy-vsce && concurrently \"tsc --watch\" \"mocha --watch\"",
 		"test": "mocha",
 		"prepublishOnly": "tsc && yarn copy-vsce && mocha",
-		"vsce": "out/vsce",
-		"postinstall": "yarn compile"
+		"vsce": "out/vsce"
 	},
 	"engines": {
 		"node": ">= 10"
